@@ -14,7 +14,6 @@
 
     <TextView
         android:id="@+id/title"
-        android:textColor="@color/colorPrimary"
         android:textSize="16dp"
         android:textStyle="bold"
         android:layout_alignParentTop="true"
@@ -31,8 +30,16 @@
         android:id="@+id/country"
         android:textColor="@color/colorPrimaryDark"
         android:layout_width="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_below="@id/location"
         android:layout_height="wrap_content" />
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_chevron_right_black_24dp"/>
 
 
 </RelativeLayout>

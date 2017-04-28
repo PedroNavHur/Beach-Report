@@ -31,6 +31,7 @@ public class BeachesListActivity extends AppCompatActivity {
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
         recyclerView.setAdapter(mAdapter);
+        prepareBeachData();
 
         recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getApplicationContext(), recyclerView, new RecyclerTouchListener.ClickListener() {
             @Override
@@ -40,6 +41,7 @@ public class BeachesListActivity extends AppCompatActivity {
 
                 Context context = view.getContext();
                 Intent intent = new Intent(context, BeachInfoActivity.class);
+                intent.putExtra("title", beach.getTittle());
                 context.startActivity(intent);
             }
 
@@ -49,7 +51,7 @@ public class BeachesListActivity extends AppCompatActivity {
             }
         }));
 
-        prepareBeachData();
+
     }
 
     private void prepareBeachData(){

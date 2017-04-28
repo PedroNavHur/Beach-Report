@@ -17,5 +17,6 @@
     <string name="nav_header_description">This is the logo of our App</string>
 
     <string name="content_main_demo">Now What?</string>
+    <string name="title_activity_maps_test">Map</string>
 
 </resources>
