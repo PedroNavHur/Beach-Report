@@ -99,8 +99,16 @@ public class MainActivity extends AppCompatActivity
                     .commit();
 
         } else if (id == R.id.nav_about) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_main
+                            , new AboutFragment())
+                    .commit();
 
         } else if (id == R.id.nav_contact) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_main
+                            , new ContactFragment())
+                    .commit();
 
         }
 

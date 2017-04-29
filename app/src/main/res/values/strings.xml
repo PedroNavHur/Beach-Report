@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Beach Report</string>
+    <string name="app_name">Waves</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -8,7 +8,7 @@
 
     <string name="nav_home">Home</string>
     <string name="nav_beaches">Beaches</string>
-    <string name="nav_compare">Compare</string>
+    <string name="nav_compare">Learn</string>
     <string name="navtitle_contact">Contact Us</string>
     <string name="nav_about">About</string>
     <string name="nav_contact">Contact</string>
@@ -40,4 +40,40 @@
     <string name="data_sunrise">5:27 AM</string>
     <string name="data_sunset">5:59 PM</string>
 
+    <string name="compare_1_title">Temperature</string>
+    <string name="compare_1_content">UV radiations and temperature are not strictly correlated no matter how hot or cold the temperature is. There are differences in UV radiation levels in summer and winter, but it is mostly due to the distance and angle of the sun. UV levels generally peak at the middle of the day but temperature may still be rising to a maximum in the afternoon.</string>
+    <string name="compare_1_content2">However there is still danger in being inside a high temperature area. Dehydration, exhaustion, rashes, low blood pressure and loss of consciousness are symptoms of severe exposure to high temperature environments. </string>
+
+    <string name="compare_2_title">Wind</string>
+    <string name="compare_2_content">Wind is tricky to assess regarding UV radiation. From a probabilistic standpoint a strong wind implies there is a pressure difference. If the air has more pressure then that means it is more dense, and UV rays are more likely to be intercepted.</string>
+
+    <string name="compare_3_title">Humidity</string>
+    <string name="compare_3_content">High humidity causes our bodies to be less efficient cooling down, since the air cannot take an extra amount of moisture, we sweat less. When sweating cannot do the job, our body overheats (known as heat exhaustion) and causes dehydration. The loss of vital bodily fluids fatigues us faster and causes our mental capabilities to decrease. </string>
+
+    <string name="compare_4_title">UV Index Scale</string>
+    <string name="compare_4_titleA">Level 0 &#8211; 2 Low </string>
+    <string name="compare_4_contentA">Low danger from the sun\'s UV rays for the average person.
+        Wear sunglasses on bright days.
+        If you burn easily, cover up and use broad spectrum SPF 30+ sunscreen.
+        Watch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure.</string>
+    <string name="compare_4_titleB">Level 3 &#8211; 5 Moderate</string>
+    <string name="compare_4_contentB">Moderate risk of harm from unprotected sun exposure.
+        Stay in shade near midday when the sun is strongest.
+        If outdoors, wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses.
+        Generously apply broad spectrum SPF 30+ sunscreen every 2 hours, even on cloudy days, and after swimming or sweating.
+        Watch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure.</string>
+    <string name="compare_4_titleC">Level 6 &#8211; 7 High</string>
+    <string name="compare_4_contentC">High risk of harm from unprotected sun exposure. Protection against skin and eye damage is needed.
+        Reduce time in the sun between 10 a.m. and 4 p.m.
+        If outdoors, seek shade and wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses.
+        Generously apply broad spectrum SPF 30+ sunscreen every 2 hours, even on cloudy days, and after swimming or sweating.
+        Watch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure.</string>
+    <string name="compare_4_titleD">Level 8 &#8211; 10 Very High</string>
+    <string name="compare_4_contentD">Very high risk of harm from unprotected sun exposure. Take extra precautions because unprotected skin and eyes will be damaged and can burn quickly.
+        Minimize sun exposure between 10 a.m. and 4 p.m.
+        If outdoors, seek shade and wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses.
+        Generously apply broad spectrum SPF 30+ sunscreen every 2 hours, even on cloudy days, and after swimming or sweating.</string>
+
+    <string name="home_titleA">Beach Report</string>
+    <string name="home_subtitleA">Let\'s have some fun safely</string>
 </resources>

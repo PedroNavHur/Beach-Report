@@ -84,17 +84,6 @@ public class BeachesListActivity extends AppCompatActivity {
                 "http://www.go2sanjuandelsur.com/albums/folder_57/35682213.jpg");
         beachList.add(beach);
 
-        beach = new Beach("Playa la Flor",
-                "San Juan del Sur, Rivas","11.142666, -85.794683",
-                "Nicaragua",
-                "Playa La Flor es reserva natural, una de las pocas playas en el mundo donde las tortugas Paslama llegan a dejar sus huevos. La reserva mide más de 3,000 hectáreas y está a 22 kilómetros de San Juan del Sur.",
-                "34°","23 km/h",
-                "20%","65%",
-                "10","14 KM",
-                "http://www.go2sanjuandelsur.com/albums/folder_57/35682213.jpg");
-        beachList.add(beach);
-
-
 
 
 

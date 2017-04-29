@@ -15,19 +15,15 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/nav_compare" />
 
-    </group>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/nav_about" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/nav_contact" />
 
-    <item android:title="@string/navtitle_contact">
-        <menu>
-            <item
-                android:id="@+id/nav_about"
-                android:icon="@drawable/ic_menu_about"
-                android:title="@string/nav_about" />
-            <item
-                android:id="@+id/nav_contact"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/nav_contact" />
-        </menu>
-    </item>
+    </group>
 
 </menu>
