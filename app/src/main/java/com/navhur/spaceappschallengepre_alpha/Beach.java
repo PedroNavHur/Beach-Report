@@ -6,18 +6,28 @@ package com.navhur.spaceappschallengepre_alpha;
 
 public class Beach {
 
-    private String tittle, location, location2, country, description;
+    private String tittle, location, location2, country, description,
+            temperature, wind, precipitation, humidity, uvlight, visibility, url;
 
     public Beach() {
         super();
     }
 
-    public Beach(String tittle, String location, String location2, String country, String description){
+    public Beach(String tittle, String location, String location2, String country, String description,
+                 String temperature, String wind, String precipitation,
+                 String humidity, String uvlight, String visibility, String url){
         this.tittle = tittle;
         this.location = location;
         this.location2 = location2;
         this.country = country;
         this.description = description;
+        this.temperature = temperature;
+        this.wind = wind;
+        this.precipitation = precipitation;
+        this.humidity = humidity;
+        this.uvlight = uvlight;
+        this.visibility = visibility;
+        this.url = url;
     }
 
     public String getTittle(){
@@ -58,5 +68,61 @@ public class Beach {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getTemperature(){
+        return temperature;
+    }
+
+    public void setTemperature(String temperature) {
+        this.temperature = temperature;
+    }
+
+    public String getWind(){
+        return wind;
+    }
+
+    public void setWind(String wind) {
+        this.wind = wind;
+    }
+
+    public String getPrecipitation() {
+        return precipitation;
+    }
+
+    public void setPrecipitation(String precipitation) {
+        this.precipitation = precipitation;
+    }
+
+    public String getHumidity(){
+        return humidity;
+    }
+
+    public void setHumidity(String humidity) {
+        this.humidity = humidity;
+    }
+
+    public String getUvlight() {
+        return uvlight;
+    }
+
+    public void setUvlight(String uvlight) {
+        this.uvlight = uvlight;
+    }
+
+    public String getVisibility() {
+        return visibility;
+    }
+
+    public void setVisibility(String visibility) {
+        this.visibility = visibility;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 }

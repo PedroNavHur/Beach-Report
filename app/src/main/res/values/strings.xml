@@ -19,4 +19,25 @@
     <string name="content_main_demo">Now What?</string>
     <string name="title_activity_maps_test">Map</string>
 
+    <string name="image_description">Beach Photo</string>
+
+    <string name="map_marker">Let\'s Go!</string>
+
+    <string name="info_temperature">Temperature</string>
+    <string name="info_wind">Wind</string>
+    <string name="info_precipitation">Precipitation</string>
+    <string name="info_humidity">Humidity</string>
+    <string name="info_uv">UV Index</string>
+    <string name="info_visibility">Visibility</string>
+    <string name="info_sunrise">Sunrise</string>
+    <string name="info_sunset">Sunset</string>
+
+    <string name="info_comment1">Enjoy the Nice and Sunny Weather</string>
+    <string name="info_comment2">There\'s a chance but don\'t worry</string>
+    <string name="info_comment3">Remember to take a high SPF sunscreen</string>
+    <string name="info_comment4">Avoid the sun from 10 am to 4 pm</string>
+
+    <string name="data_sunrise">5:27 AM</string>
+    <string name="data_sunset">5:59 PM</string>
+
 </resources>

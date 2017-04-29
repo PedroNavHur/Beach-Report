@@ -41,7 +41,16 @@ public class BeachesListActivity extends AppCompatActivity {
 
                 Context context = view.getContext();
                 Intent intent = new Intent(context, BeachInfoActivity.class);
-                intent.putExtra("title", beach.getTittle());
+                intent.putExtra("title_key", beach.getTittle());
+                intent.putExtra("location_key", beach.getLocation2());
+                intent.putExtra("description_key", beach.getDescription());
+                intent.putExtra("temperature_key", beach.getTemperature());
+                intent.putExtra("wind_key", beach.getWind());
+                intent.putExtra("precipitation_key", beach.getPrecipitation());
+                intent.putExtra("humidity_key", beach.getHumidity());
+                intent.putExtra("uvlight_key", beach.getUvlight());
+                intent.putExtra("visibility_key", beach.getVisibility());
+                intent.putExtra("url_key", beach.getUrl());
                 context.startActivity(intent);
             }
 
@@ -55,56 +64,40 @@ public class BeachesListActivity extends AppCompatActivity {
     }
 
     private void prepareBeachData(){
-        Beach beach = new Beach("San Juan del Sur","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
+        Beach beach = new Beach("San Juan del Sur",
+                "San Juan del Sur, Rivas","11.258975, -85.875848",
+                "Nicaragua",
+                "Preciosa bahía en forma de medialuna, rodeada de picos montañosos, es el destino turístico más popular en Nicaragua. Es uno de los dos puertos del país que recibe cruceros internacionales.",
+                "34°","23 km/h",
+                "20%","65%",
+                "10","14 KM",
+                "http://property-nicaragua.com/pedrodev/wp-content/uploads/2015/01/san-juan-del-sur-bay-REMAX-Slider.012615.jpg");
         beachList.add(beach);
 
-        beach = new Beach("San Juan del Sur 2","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
+        beach = new Beach("Playa la Flor",
+                "San Juan del Sur, Rivas","11.142666, -85.794683",
+                "Nicaragua",
+                "Playa La Flor es reserva natural, una de las pocas playas en el mundo donde las tortugas Paslama llegan a dejar sus huevos. La reserva mide más de 3,000 hectáreas y está a 22 kilómetros de San Juan del Sur.",
+                "34°","23 km/h",
+                "20%","65%",
+                "10","14 KM",
+                "http://www.go2sanjuandelsur.com/albums/folder_57/35682213.jpg");
         beachList.add(beach);
 
-        beach = new Beach("San Juan del Sur 3","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
+        beach = new Beach("Playa la Flor",
+                "San Juan del Sur, Rivas","11.142666, -85.794683",
+                "Nicaragua",
+                "Playa La Flor es reserva natural, una de las pocas playas en el mundo donde las tortugas Paslama llegan a dejar sus huevos. La reserva mide más de 3,000 hectáreas y está a 22 kilómetros de San Juan del Sur.",
+                "34°","23 km/h",
+                "20%","65%",
+                "10","14 KM",
+                "http://www.go2sanjuandelsur.com/albums/folder_57/35682213.jpg");
         beachList.add(beach);
 
-        beach = new Beach("San Juan del Sur 4","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
 
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
 
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
 
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
 
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
-
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
-
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
-
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
-
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
-
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
-
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
-
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
-
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
-
-        beach = new Beach("San Juan del Sur 5","Rivas","- 11.258975, -85.875848","Nicaragua","Una Playa");
-        beachList.add(beach);
 
         mAdapter.notifyDataSetChanged();
     }
