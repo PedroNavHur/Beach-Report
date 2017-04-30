@@ -52,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="4dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="4dp"
@@ -570,6 +570,34 @@
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
+
+            <Button
+                android:theme="@style/AppTheme.Blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/notification"
+                android:textColor="@color/colorTextPrimary"
+                android:id="@+id/button"
+                android:onClick="sendNotification"/>
+
+            <Button
+                android:theme="@style/AppTheme.Blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/notification2"
+                android:textColor="@color/colorTextPrimary"
+                android:id="@+id/button2"
+                android:onClick="sendNotification2"/>
+
+
 
 
         </LinearLayout>

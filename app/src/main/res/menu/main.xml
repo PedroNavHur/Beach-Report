@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/call_an_ambulance"
+        android:title="@string/navbar_red_cross"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_red_cross" />
+    <item
+        android:id="@+id/call_the_firefighters"
+        android:title="@string/navbar_fire"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_extinguisher" />
+    <item
+        android:id="@+id/call_the_police"
+        android:title="@string/navbar_police"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_police_cap" />
+
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+
 </menu>

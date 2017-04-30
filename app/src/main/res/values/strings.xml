@@ -27,7 +27,7 @@
     <string name="info_wind">Wind</string>
     <string name="info_precipitation">Precipitation</string>
     <string name="info_humidity">Humidity</string>
-    <string name="info_uv">UV Index</string>
+    <string name="info_uv">UV Radiation</string>
     <string name="info_visibility">Visibility</string>
     <string name="info_sunrise">Sunrise</string>
     <string name="info_sunset">Sunset</string>
@@ -134,6 +134,14 @@ All icons available in this project were obtained from free flaticon or vecteezy
     <string name="contact_G">Annia Valeska Rivas Gonzales</string>
     <string name="contact_G2">Chief Communications Officer</string>
     <string name="contact_G3">Video Director, Editor and Publisher</string>
+
+    <string name="notification">Test Earthquake Notification</string>
+    <string name="notification2">Test Tsunami Notification</string>
+    
+    <string name="navbar_red_cross">Ambulance</string>
+    <string name="navbar_fire">Firefighters</string>
+    <string name="navbar_police">Police</string>
+
 
 
 </resources>
