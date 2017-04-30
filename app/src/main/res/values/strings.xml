@@ -76,4 +76,64 @@
 
     <string name="home_titleA">Beach Report</string>
     <string name="home_subtitleA">Let\'s have some fun safely</string>
+
+    <string name="about_titleA">Climate</string>
+    <string name="about_contentA">All climate information available in this project was obtained through Open Weather API
+UV Light, Visibility, Sunrise and Sunset was obtained through Yahoo Weather API.
+</string>
+
+    <string name="about_titleB">Map</string>
+    <string name="about_contentB">All map information available in this project was obtained through Google Maps API. </string>
+
+    <string name="about_titleC">Learn Content</string>
+    <string name="about_contentC">All learn content available in this project was obtained through links from resources available on NASA Let\'s Go to the Beach landing page.</string>
+
+    <string name="about_titleD">Pictures</string>
+    <string name="about_contentD">All pictures available in this project were obtained through free sources from the beaches landing pages.
+All icons available in this project were obtained from free flaticon or vecteezy icons.
+</string>
+
+    <string name="home_suggestions">Suggestions</string>
+    <string name="home_suggestion1">Stay sober when swimming</string>
+    <string name="home_suggestion2">Always use sunscreen</string>
+    <string name="home_suggestion3">Be careful of ocean life</string>
+    <string name="home_suggestion4">Stay hydrated and eat well</string>
+    <string name="home_suggestion5">Be aware of the waves</string>
+    <string name="home_suggestion6">Beware of the weather</string>
+    <string name="home_suggestion7">Learn how to swim</string>
+    <string name="home_suggestion8">Use shoes when the sand is too hot</string>
+    <string name="home_suggestion9">Use hats and sunglasses</string>
+    <string name="home_suggestion10">Never swim alone</string>
+    <string name="home_suggestion11">Children are safer near coast guards</string>
+    <string name="home_suggestion12">Avoid rip currents</string>
+
+    <string name="contact_A">Victor Manuel Jarquin Slobodyanik</string>
+    <string name="contact_A2">Chief Ejecutive Officer</string>
+    <string name="contact_A3">Management</string>
+
+    <string name="contact_B">Pedro Joaquin Navarrete Hurtado</string>
+    <string name="contact_B2">Chief Tecnhology Officer</string>
+    <string name="contact_B3">Lead Developer</string>
+
+    <string name="contact_C">Carlos Eduardo Perez Villanueva</string>
+    <string name="contact_C2">Chief Operating Officer</string>
+    <string name="contact_C3">Developer</string>
+
+    <string name="contact_D">Carlos Andreu Prendiz Guerrero</string>
+    <string name="contact_D2">Chief Information Officer</string>
+    <string name="contact_D3">Data Base Administrator and Developer</string>
+
+    <string name="contact_E">Saul Alexander Mojica Herrera</string>
+    <string name="contact_E2">Chief Business Development Officer</string>
+    <string name="contact_E3">Record Keeping, Financial Plan and Translator</string>
+
+    <string name="contact_F">Camilo Mizael Sequeira Orozco</string>
+    <string name="contact_F2">Chief Creative Officer</string>
+    <string name="contact_F3">Lead Designer</string>
+
+    <string name="contact_G">Annia Valeska Rivas Gonzales</string>
+    <string name="contact_G2">Chief Communications Officer</string>
+    <string name="contact_G3">Video Director, Editor and Publisher</string>
+
+
 </resources>
