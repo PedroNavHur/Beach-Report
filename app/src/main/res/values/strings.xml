@@ -4,7 +4,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Admin</string>
 
     <string name="nav_home">Home</string>
     <string name="nav_beaches">Beaches</string>
@@ -121,7 +121,7 @@ All icons available in this project were obtained from free flaticon or vecteezy
 
     <string name="contact_D">Carlos Andreu Prendiz Guerrero</string>
     <string name="contact_D2">Chief Information Officer</string>
-    <string name="contact_D3">Data Base Administrator and Developer</string>
+    <string name="contact_D3">Developer</string>
 
     <string name="contact_E">Saul Alexander Mojica Herrera</string>
     <string name="contact_E2">Chief Business Development Officer</string>
@@ -135,13 +135,19 @@ All icons available in this project were obtained from free flaticon or vecteezy
     <string name="contact_G2">Chief Communications Officer</string>
     <string name="contact_G3">Video Director, Editor and Publisher</string>
 
+    <string name="contact_H">Darwin Jose Garcia</string>
+    <string name="contact_H2">Chief Research Officer</string>
+    <string name="contact_H3">Developer and Database Administrator</string>
+
+    <string name="contact_titleA">Developers</string>
+    <string name="contact_titleB">Support</string>
+
     <string name="notification">Test Earthquake Notification</string>
     <string name="notification2">Test Tsunami Notification</string>
-    
+
     <string name="navbar_red_cross">Ambulance</string>
     <string name="navbar_fire">Firefighters</string>
     <string name="navbar_police">Police</string>
-
 
 
 </resources>

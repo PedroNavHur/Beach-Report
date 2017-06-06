@@ -3,15 +3,15 @@
     package="com.navhur.spaceappschallengepre_alpha">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <permission
         android:name="com.example.permission.MAPS_RECEIVE"
-        android:protectionLevel="signature"/>
-    <uses-permission android:name="com.example.permission.MAPS_RECEIVE"/>
+        android:protectionLevel="signature" />
 
+    <uses-permission android:name="com.example.permission.MAPS_RECEIVE" />
 
     <application
         android:allowBackup="true"
@@ -23,14 +23,10 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name=".BeachesListActivity"
-            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".BeachesListActivity"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".BeachInfoActivity"
             android:parentActivityName=".BeachesListActivity" />
@@ -47,8 +43,18 @@
             android:value="@string/google_maps_key" />
 
         <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".MapsActivityTest"
-            android:label="@string/title_activity_maps_test"></activity>
+            android:label="@string/title_activity_maps_test" />
+        <activity android:name=".AdminActivity" />
     </application>
 
 </manifest>
